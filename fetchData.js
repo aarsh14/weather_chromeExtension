@@ -1,4 +1,4 @@
-
+const API_key = " "     //add API key from openweather
 
 window.onload = function () {
   var startPos;
@@ -6,7 +6,7 @@ window.onload = function () {
   var geoSuccess = function (position) {
     startPos = position;
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?lat=${startPos.coords.latitude}&lon=${startPos.coords.longitude}&appid=${API_key}`
+      `https://api.openweathermap.org/data/2.5/weather?lat=${startPos.coords.latitude}&lon=${startPos.coords.longitude}&appid=${API_key}`    
     )
       .then((data) => data.json())
 
