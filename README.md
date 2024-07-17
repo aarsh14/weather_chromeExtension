@@ -3,8 +3,11 @@ Basic Weather App Chrome Extension
 A simple Chrome extension that displays current weather information.
 
 Features:
+
 Displays current temperature in Celsius.
+
 Shows location and country.
+
 Provides weather description and feels like temperature.
 
 Screenshots
