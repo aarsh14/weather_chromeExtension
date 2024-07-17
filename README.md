@@ -2,6 +2,8 @@ Basic Weather App Chrome Extension
 
 A simple Chrome extension that displays current weather information.
 
+Used openWeather API
+
 Features:
 
 Displays current temperature in Celsius.
