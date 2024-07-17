@@ -1,4 +1,4 @@
-const API_key = "5a862c00ceb275873314cb64f6ad24c5";
+
 
 window.onload = function () {
   var startPos;
